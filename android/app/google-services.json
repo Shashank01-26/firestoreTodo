@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "474301632018",
+    "project_id": "firestoretodo-7a759",
+    "storage_bucket": "firestoretodo-7a759.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474301632018:android:96f515d689827828f412cb",
+        "android_client_info": {
+          "package_name": "com.example.firestore_tutorial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1iBAU-dAPGMehl84wCU1oXkKXspl-oNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
