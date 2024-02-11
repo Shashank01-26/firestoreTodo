@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../models/todo.dart';
@@ -23,5 +25,13 @@ class DatabaseService {
 
   void addTodo(Todo todo) async{
    _todosRef.add(todo);
+  }
+
+  void updateTodo(String todoId, Todo todo){
+   _todosRef.doc(todoId).update(todo.toJson());
+  }
+
+  void deleteTodo(String todoId){
+    _todosRef.doc(todoId).delete();
   }
 }
